@@ -3,3 +3,13 @@ languageCode = 'en-us'
 title = 'mental clutter'
 theme = 'hugo-book'
 
+[params]
+  author = "Your Name"
+  description = "A Hugo Book site example"
+  
+[menu]
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 1
