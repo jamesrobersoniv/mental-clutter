@@ -34,6 +34,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      
+      - name: Create CNAME
+        run: echo "mentalclutter.space" > ./public/CNAME
 
   deploy:
     environment:
