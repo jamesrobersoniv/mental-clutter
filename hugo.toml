@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.mentalclutter.space/'
 languageCode = 'en-us'
 title = 'Mental Clutter'
 theme = 'paper'  # Custom layouts in layouts/ override theme templates
