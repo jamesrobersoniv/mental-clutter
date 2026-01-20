@@ -186,3 +186,54 @@ The feed path would be:
 - Images in the gallery are automatically converted to grayscale
 - Hovering over gallery cards shows a red overlay with title, date, and author
 - The Mixcloud player follows visitors across all pages (using AJAX navigation)
+## Git Commands for Publishing
+
+Once you've made changes to your site, use these commands to deploy them to **www.mentalclutter.space**:
+
+### Check your changes
+```bash
+git status
+```
+Shows which files have been modified or created.
+
+### Stage your changes
+```bash
+git add -A
+```
+Prepares all changes for commit (or use `git add filename.md` for specific files).
+
+### Commit your changes with a message
+```bash
+git commit -m "Add new post about coffee shops"
+```
+Always write a descriptive message about what changed.
+
+### Push to GitHub (auto-deploys)
+```bash
+git push
+```
+Your site automatically rebuilds and deploys within 1-2 minutes.
+
+### View deployment status
+Go to: https://github.com/jamesrobersoniv/mental-clutter/actions
+
+### Common workflow
+```bash
+# 1. Create a new post
+hugo new content/posts/my-new-post.md
+
+# 2. Edit the post in your editor
+# (fill in front matter and content)
+
+# 3. Preview locally
+hugo server
+# Visit http://localhost:1313
+
+# 4. When happy, commit and push
+git add -A
+git commit -m "Publish: My New Post"
+git push
+
+# 5. Wait 1-2 minutes for deployment
+# 6. Check your site at www.mentalclutter.space
+```
