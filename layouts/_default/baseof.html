@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+  
+  <!-- Google Fonts - Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Elephant.art CSS Styles -->
+  <link rel="stylesheet" href="{{ "css/elephant-art/flex-masonry.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/elephant-art/main.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/elephant-art/elephant.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "css/elephant-art/inline-styles.css" | absURL }}">
+  
+  <!-- Gallery CSS -->
+  <link rel="stylesheet" href="{{ "css/gallery.css" | absURL }}">
+  
+  <!-- Custom CSS - Override or add additional styles here -->
+  {{ if fileExists "static/css/custom.css" }}
+  <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+  {{ end }}
+  
+  <!-- Theme CSS (if using theme) -->
+  {{ if site.Params.useThemeCSS }}
+  {{ $main := resources.Get "main.css" }}
+  {{ if $main }}
+  <link rel="stylesheet" href="{{ $main.Permalink }}">
+  {{ end }}
+  {{ end }}
+  
+  <!-- Meta tags -->
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  {{ if .Params.author }}
+  <meta name="author" content="{{ .Params.author }}">
+  {{ end }}
+  
+  <!-- Favicon with # -->
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
+  
+  <!-- Additional head content -->
+  {{ block "head" . }}{{ end }}
+</head>
+<body class="{{ block "bodyClass" . }}{{ end }}">
+  <!-- Header -->
+  {{ block "header" . }}
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ "/" | absURL }}" class="site-title">{{ site.Title }}</a>
+      <a href="{{ "/about/" | absURL }}" class="site-about">About</a>
+    </div>
+  </header>
+  {{ end }}
+  
+  <!-- Main Content -->
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  <!-- Footer -->
+  {{ block "footer" . }}
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ now.Year }} {{ site.Title }}.</p>
+    </div>
+  </footer>
+  {{ end }}
+  
+  <!-- Mixcloud Embed - Bottom Right on All Pages -->
+  <div class="site-mixcloud">
+    <iframe 
+      width="100%" 
+      height="120" 
+      src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fjamesivvv%2Fmental-clutter-8-do-the-machines-learn%2F" 
+      frameborder="0" 
+      allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;">
+    </iframe>
+  </div>
+  
+  <!-- Custom JavaScript -->
+  {{ if fileExists "static/js/custom.js" }}
+  <script src="{{ "js/custom.js" | absURL }}"></script>
+  {{ end }}
+  
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>
+

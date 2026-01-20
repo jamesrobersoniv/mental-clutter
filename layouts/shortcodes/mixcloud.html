@@ -1,0 +1,21 @@
+{{- $feed := .Get "feed" | default (.Get 0) -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "60" -}}
+{{- $hideCover := .Get "hide_cover" | default "1" -}}
+{{- $mini := .Get "mini" | default "1" -}}
+
+{{- if $feed -}}
+  {{- $encodedFeed := printf "%%2F%s" (replace $feed "/" "%%2F") -}}
+  {{- $widgetUrl := printf "https://player-widget.mixcloud.com/widget/iframe/?hide_cover=%s&mini=%s&feed=%s" $hideCover $mini $encodedFeed -}}
+<div class="mixcloud-embed">
+<iframe 
+  width="{{ $width }}" 
+  height="{{ $height }}" 
+  src="{{ $widgetUrl }}" 
+  frameborder="0" 
+  allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;">
+</iframe>
+</div>
+{{- else -}}
+  {{- errorf "Mixcloud shortcode: 'feed' parameter is required. Usage: {{< mixcloud feed=\"/jamesivvv/mental-clutter-8-do-the-machines-learn/\" >}}" -}}
+{{- end -}}

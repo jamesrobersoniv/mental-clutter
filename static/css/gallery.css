@@ -1,0 +1,220 @@
+/* Simple Gallery Layout for Articles */
+
+/* Header Centering Override */
+.site-header {
+  text-align: center !important;
+}
+
+.site-header .container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.site-title {
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+/* Posts List Container - Override custom.css to align left */
+.posts-list {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+/* Gallery Container - Starts from far left */
+.articles-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Override site-main padding when gallery is present */
+.site-main .posts-list {
+  padding: 0 !important;
+}
+
+/* Article Card - Image with Title on Hover */
+.article-card {
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  width: 100%;
+}
+
+/* Article Card Link - Makes entire card clickable */
+.article-card-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 0;
+}
+
+/* Ensure card hover works when hovering link */
+.article-card-link:hover {
+  z-index: 2;
+}
+
+/* Article Image - Black and white grayscale filter */
+.article-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 0;
+}
+
+/* Placeholder for articles without images */
+.article-card-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 0;
+}
+
+
+/* Overlay with Title, Date, and Author - Always visible */
+.article-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+/* Solid red on hover - image becomes solid red */
+.article-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ff0000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Show red overlay when hovering card or link */
+.article-card:hover::before,
+.article-card:has(.article-card-link:hover)::before {
+  opacity: 1;
+}
+
+/* Alternative method: red overlay on link using link's ::before */
+.article-card-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ff0000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.article-card-link:hover::before {
+  opacity: 1;
+}
+
+/* Title and Date in top left */
+.article-card-title-date {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 3;
+}
+
+/* Article Title - Top left, all caps */
+.article-card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Article Date - Below title, italics */
+.article-card-date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Article Author - Bottom right, italics */
+.article-card-author {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.article-card-title {
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive - Smaller screens */
+@media (max-width: 768px) {
+  .articles-gallery {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* Responsive - Medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .articles-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

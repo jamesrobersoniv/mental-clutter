@@ -1,0 +1,378 @@
+/* Custom CSS */
+/* Basic reset and container */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'EB Garamond', Garamond, serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Override container in header to center title */
+.site-header .container {
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* Header Styles */
+.site-header {
+  background: #000;
+  border-bottom: none;
+  padding: 1rem 0;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.site-header .container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 2rem !important;
+  margin: 0 !important;
+  position: relative;
+}
+
+.site-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff !important;
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.site-title:link,
+.site-title:visited,
+.site-title:hover,
+.site-title:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+
+.site-about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff !important;
+  margin-left: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.site-about:link,
+.site-about:visited,
+.site-about:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+
+.site-about:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Ensure header links are never blue */
+.site-header a:link,
+.site-header a:visited,
+.site-header a:active {
+  color: #fff !important;
+}
+
+
+.site-nav {
+  display: none;
+}
+
+.site-nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #666;
+}
+
+.site-nav a:hover {
+  color: #333;
+}
+
+/* Main Content */
+.site-main {
+  min-height: calc(100vh - 200px);
+  padding: 2rem 0;
+}
+
+/* Post Styles */
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  min-height: calc(100vh - 200px);
+}
+
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+/* Description */
+.post-description {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+  font-style: italic;
+}
+
+.post-description p {
+  margin: 0;
+  color: #ccc;
+  font-style: italic;
+}
+
+/* Author */
+.post-author {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+.post-author p {
+  margin: 0;
+  color: #999;
+}
+
+/* Post Image */
+.post-image {
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+
+.post-image-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Image Caption */
+.post-image-caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+  text-align: left;
+}
+
+/* Mixcloud Embed */
+.mixcloud-embed {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.mixcloud-embed iframe {
+  width: 100%;
+  display: block;
+}
+
+/* Mixcloud Embed - Bottom Right on All Pages */
+.site-mixcloud {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 300px;
+  z-index: 1000;
+  background: #000;
+  padding: 0.5rem;
+  border: 1px solid #333;
+}
+
+.site-mixcloud iframe {
+  width: 100%;
+  display: block;
+}
+
+/* Responsive: Move Mixcloud below content on mobile */
+@media (max-width: 768px) {
+  .site-mixcloud {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+  }
+}
+
+.post-content {
+  line-height: 1.8;
+}
+
+.post-content h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* All headings use Arial */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.post-content {
+  color: #fff;
+}
+
+
+.page-title {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+/* Post List */
+.posts-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.post-preview {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-preview-title a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.post-preview-title a:hover {
+  color: #0066cc;
+}
+
+.post-preview-date {
+  color: #666;
+  font-size: 0.9rem;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.post-preview-summary {
+  color: #666;
+  margin: 1rem 0;
+}
+
+.post-preview-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+  background: #000;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+  color: #999 !important;
+  font-size: 0.875rem !important;
+  font-style: italic !important;
+}
+
+.site-footer p {
+  color: #999 !important;
+  font-size: 0.875rem !important;
+  font-style: italic !important;
+  margin: 0 !important;
+}
+
+/* Tags */
+.post-tags {
+  margin-top: 2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #f0f0f0;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #666;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.tag:hover {
+  background: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .site-header .container {
+    padding: 0 1rem !important;
+  }
+  
+  .site-title {
+    position: relative;
+    left: auto;
+    transform: none;
+    font-size: 1.25rem;
+  }
+  
+  .site-about {
+    font-size: 0.9rem;
+  }
+  
+  .site-nav {
+    margin-top: 1rem;
+  }
+  
+  .site-nav a {
+    margin: 0 1rem;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+  }
+}
+

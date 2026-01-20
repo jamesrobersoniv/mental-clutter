@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="posts-list">
+  {{ if not .IsHome }}
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ end }}
+  
+  <!-- Gallery Layout for Articles -->
+  {{ $pages := .Pages }}
+  {{ if .IsHome }}
+    {{ $pages = where site.RegularPages "Type" "in" (site.Params.mainSections | default (slice "posts")) }}
+  {{ end }}
+  {{ $pages = $pages.ByDate.Reverse }}
+  
+  <div class="articles-gallery">
+    {{ range $pages }}
+    <article class="article-card">
+      <a href="{{ .Permalink }}" class="article-card-link">
+        {{ $image := .Params.image }}
+        {{ if not $image }}
+          {{ $image = .Params.featuredImage }}
+        {{ end }}
+        {{ if not $image }}
+          {{ $image = index (.Params.images) 0 }}
+        {{ end }}
+        
+        {{ if $image }}
+          {{ if hasPrefix $image "http" }}
+            <img src="{{ $image }}" alt="{{ .Title }}" class="article-card-image">
+          {{ else }}
+            <img src="{{ $image | absURL }}" alt="{{ .Title }}" class="article-card-image">
+          {{ end }}
+        {{ else }}
+          <div class="article-card-image article-card-placeholder">
+            <span>No Image</span>
+          </div>
+        {{ end }}
+        
+        <div class="article-card-overlay">
+          <div class="article-card-title-date">
+            <h2 class="article-card-title">
+              {{ .Title | upper }}
+            </h2>
+            {{ if .Date }}
+            <div class="article-card-date">{{ .Date.Format "January 2, 2006" }}</div>
+            {{ end }}
+          </div>
+          {{ if .Params.author }}
+          <div class="article-card-author">{{ .Params.author }}</div>
+          {{ end }}
+        </div>
+      </a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+

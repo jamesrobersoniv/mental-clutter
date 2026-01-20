@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Mental Clutter'
+theme = 'paper'  # Custom layouts in layouts/ override theme templates
+
+[params]
+  # Theme configuration (used if theme is active)
+  homeSubtitle = 'A clean and minimal Hugo site'
+  footer = 'Built with Hugo and Paper theme'
+  description = 'A static website built with Hugo'
+  
+  # Custom layout settings
+  useThemeCSS = false  # Set to true to use theme CSS, false for custom CSS only
+  
+  # Show posts on homepage
+  mainSections = ['posts']
+  
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
