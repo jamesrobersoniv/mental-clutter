@@ -4,7 +4,7 @@ draft = false
 title = 'A Bottle of Aperol in Mid October'
 author = 'James Roberson'
 description = ''
-image = 'Images/IMG_2656.jpeg'
+image = 'images/IMG_2656.jpeg'
 imageCaption = ''
 +++
 IS AN OFFERING OF SORTS.

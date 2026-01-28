@@ -4,7 +4,7 @@ draft = false
 title = 'Homage to Cobb'
 author = 'James Roberson'
 description = ''
-image = 'Images/IMG_9932.jpeg'
+image = 'images/IMG_9932.jpeg'
 imageCaption = 'Clobb, with the oldheads. UCPD also pictured.'
 +++
 I was in the backseat of a Lyft headed back home when a friend spilled the beans. Cobb Café, located in the basement of Cobb Hall, is marketed as the worst place to have a cup of coffee to prospective students. Apparently, on those days where the sun is out about 40% of the day (as opposed to 5% in February) these tour guides laud iced-shaken espressos from Plein Air which cost an arm and a leg. Hearing that skirting south on the Dan Ryan made my blood boil. 
