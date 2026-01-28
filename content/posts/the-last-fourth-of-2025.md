@@ -1,9 +1,9 @@
 +++
-date = '2026-01-19T18:39:15-08:00'
-draft = true
-title = 'The Last Fourth of 2025'
+date = '2025-11-24T18:39:15-08:00'
+draft = false
+title = 'Revelations from the Last Fourth of 2025'
 author = 'James Roberson'
-description = 'A reality that I was back home for the forseeable future.'
+description = 'Settling into the rhythm of the IE.'
 image = 'images/IMG_1742.jpeg'
 imageCaption = ''
 +++
