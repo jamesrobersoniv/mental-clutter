@@ -5,7 +5,7 @@ title = 'Public Comment to the City of Claremont #1'
 author = 'James Roberson'
 description = 'I rescinded my application for membership on the Public Art Committee.'
 image = 'images/IMG_2596.jpeg'
-imageCaption = 'Don't sit on the art!'
+imageCaption = 'Don not sit on the art!'
 +++
 Dear Council,
 
