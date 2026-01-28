@@ -1,11 +1,11 @@
 +++
 date = '2026-01-27T20:29:25-08:00'
 draft = false
-title = 'My Public Comment to the City of Claremont'
+title = 'Public Comment to the City of Claremont #1'
 author = 'James Roberson'
-description = 'I said no to being on the Public Art Committee.'
+description = 'I rescinded my application for membership on the Public Art Committee.'
 image = 'images/IMG_2596.jpeg'
-imageCaption = ''
+imageCaption = 'Don't sit on the art!'
 +++
 Dear Council,
 
