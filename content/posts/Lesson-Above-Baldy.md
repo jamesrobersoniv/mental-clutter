@@ -8,13 +8,13 @@ image = 'images/IMG_7563.jpeg'
 imageCaption = ''
 +++
 While sun showered laundered sheets,
-My mother whispered, “move mountains.”
+My mother whispered, “move mountains.” <br>
 
 I tried, gave up, and flew over instead. 
-Same shit, different toilets I learned.
+Same shit, different toilets I learned. <br>
 
 My advice: pitch the tent, sow the seeds,
-Mend the fire, and dance to laughter.
+Mend the fire, and dance to laughter. <br>
 
 When snow melts, water runs.
 Plan accordingly.
