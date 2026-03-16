@@ -2,7 +2,7 @@
 date = '2024-03-12T19:15:42-08:00'
 draft = false
 title = 'Noise Cancelling'
-author = 'James Roberson'
+author = ''
 description = 'What happens when a boy from the suburbs moves to the Big Apple to further rights inside the criminal legal system? '
 image = 'images/IMG_4754.jpeg'
 imageCaption = 'Pulse Night at Corsica Studios'

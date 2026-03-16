@@ -2,7 +2,7 @@
 date = '2026-01-27T20:29:25-08:00'
 draft = false
 title = 'Public Comment to the City of Claremont #1'
-author = 'James Roberson'
+author = ''
 description = 'I rescinded my application for membership on the Public Art Committee.'
 image = 'images/IMG_2596.jpeg'
 imageCaption = 'Do not sit on the art!'

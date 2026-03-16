@@ -2,7 +2,7 @@
 date = '2023-10-19T19:09:51-08:00'
 draft = false
 title = 'A Bottle of Aperol in Mid October'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_2656.jpeg'
 imageCaption = ''

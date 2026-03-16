@@ -2,7 +2,7 @@
 date = '2026-01-22T20:16:54-08:00'
 draft = false
 title = 'Rupture'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_2576.jpeg'
 imageCaption = ''

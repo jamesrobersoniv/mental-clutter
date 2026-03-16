@@ -2,7 +2,7 @@
 date = '2025-03-30T18:57:44-08:00'
 draft = false
 title = 'Homage to Cobb'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_9932.jpeg'
 imageCaption = 'Clobb, with the oldheads. UCPD also pictured.'

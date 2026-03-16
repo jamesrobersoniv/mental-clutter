@@ -2,7 +2,7 @@
 date = '2025-08-11T18:12:15-08:00'
 draft = false
 title = 'Dispatch #2: Touched Grass in Argentina'
-author = 'James Roberson'
+author = ''
 description = 'Visited the land that was promised to me.'
 image = '/images/IMG_0424.jpeg'
 imageCaption = 'The largest "anti-leftist party in the world!'

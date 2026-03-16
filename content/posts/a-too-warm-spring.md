@@ -2,7 +2,7 @@
 date = '2024-12-13T18:23:20-08:00'
 draft = false
 title = 'Dispatch #1: A Too Warm Fall'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_8209.jpeg'
 imageCaption = 'The MSI after the rebrand looking north.'

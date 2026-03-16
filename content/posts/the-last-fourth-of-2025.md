@@ -2,7 +2,7 @@
 date = '2025-11-24T18:39:15-08:00'
 draft = false
 title = 'Revelations from the Last Fourth of 2025'
-author = 'James Roberson'
+author = ''
 description = 'Settling into the rhythm of the IE.'
 image = 'images/IMG_1742.jpeg'
 imageCaption = ''
