@@ -2,7 +2,7 @@
 date = '2025-11-07T19:04:01-08:00'
 draft = false
 title = 'The Land of Cheap Dirt'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_1786.jpeg'
 imageCaption = ''
@@ -15,7 +15,7 @@ Washington’s wet dream.
 The orange groves we grew up knowing came from overseas and was delivered to us in bouquets of dirt.  
 Portuguese monks birthed the Navel on Washington’s dime,  
 And the juicy Valencia’s followed Columbus.  
-<i>Does anyone know what was here before the Orange Gold?</i>   
+*Does anyone know what was here before the Orange Gold?*   
 
 What I know is that the Empire began with a Canadian  
 Who dammed the rivers,   
@@ -42,8 +42,8 @@ Orange, heat, dust, packed, screams, screech,
 Leather hands, who’s hands, pinstripe lemonade stands, sickly sweet, refrigerator cars,   
 Off East, our Americana, someone’s Manifest Destiny.  
   
-<i>What happened to this Orange Gold,  
-Our Orange Gold?</i>. 
+*What happened to this Orange Gold,  
+Our Orange Gold?* 
   
 I am a subject of an Empire without an Emperor.  
 I’ve dreamed of a place to prostrate myself, and demand.  
@@ -61,16 +61,16 @@ We slither on the 10 and 210 in streams of red and white
 Never really questioning who lives above, between, and below.  
 
 Subjects of the Inland Empire, spawns of the Model Colony  
-<i>Are you full? Are you happy? Did you sleep alright?  
+*Are you full? Are you happy? Did you sleep alright?  
 Was your American Dream delivered in one piece?  
-Our neighbor Bezos can ship it to you same day.</i>  
+Our neighbor Bezos can ship it to you same day.*  
   
 From the peaks that watch over us, and the Rings that ping us,  
 the Serpent is well-aware. Here, seventeen over and over again  
 performing nostalgias in parking lots with hatchbacks   
 And Japanese cigarettes at the turn out.  
   
-<i>Am I wasting my youth? My twenty two? </i>  
+*Am I wasting my youth? My twenty two?*  
 A future collapsed into home equity, a Flat Stanley  
 White picket fence cul-de-sac, his future bright because  
 He can’t look back or side-to-side.  Mine too, a head in the sand.   
