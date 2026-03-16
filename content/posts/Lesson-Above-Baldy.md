@@ -11,7 +11,7 @@ While sun showered laundered sheets,
 My mother whispered, “move mountains.”   
   
 I tried, gave up, and flew over instead.   
-<i>Same shit, different toilets</i> I learned.  
+*Same shit, different toilets* I learned.  
   
 My advice: pitch the tent, sow the seeds,  
 Mend the fire, and dance to laughter.  
