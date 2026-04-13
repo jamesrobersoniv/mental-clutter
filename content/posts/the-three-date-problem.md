@@ -4,7 +4,7 @@ draft = false
 title = 'The Three Date Problem'
 author = ''
 description = ''
-image = 'images/IMG_2961'
+image = 'images/IMG_2961.jpeg'
 imageCaption = ''
 +++
 I attract the fascist gays. The gays who “don’t see color” but wear the rainbow. The gays who find Russia aggressive, China offensive, and Iran intolerant while they Hajj to Fire Island or Tel Aviv. The gays who want the wife, the ring, and a white picket fence cul-de-sac. 
