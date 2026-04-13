@@ -2,7 +2,7 @@
 date = '2025-08-31T18:32:31-08:00'
 draft = false
 title = 'Dispatch #3: A Celebration and a Tear'
-author = 'James Roberson'
+author = ''
 description = ''
 image = 'images/IMG_0973.jpeg'
 imageCaption = 'Locked up at Jewel Osco in Bronzeville.'
