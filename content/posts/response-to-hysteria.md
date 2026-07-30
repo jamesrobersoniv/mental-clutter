@@ -3,7 +3,7 @@ date = '2026-07-30T16:38:57-07:00'
 draft = false
 title = 'Response to Hysteria'
 author = ''
-description = 'A review of Aaron Hernadez's two latest films'
+description = '"A review of Aaron Hernadez's two latest films"'
 image = 'images/IMG_3854.jpeg'
 imageCaption = ''
 +++
