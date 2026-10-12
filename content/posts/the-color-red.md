@@ -13,9 +13,10 @@ It turns out that when hemoglobin travels to our lungs and binds with oxygen, a 
 
 Hemoglobin is an interesting piece of our puzzle. Its sole mission is to be a messenger, a pack mule, a disposer, but most fundamentally a traveler. 
 
-There is no road untraveled. 
+There is no road left untraveled inside of us. 
 
 The sick joke is that when we bleed, these hemoglobins are flooded with their bounty—oxygen—and burst. All spoiled. 
+
 Mia Woods confronted us with this color at the Metro Art Gallery in Pomona on October 10th. A color she loves. The color of flesh. The color of an apple. The color of salmon. The color of fall. The color of a world on fire. 
 
 The color of us. Well, the us that reveals itself in moments of intimacy or pain. Who has been given the privilege to see your insides? 
