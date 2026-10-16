@@ -1,7 +1,7 @@
 +++
 date = '2026-07-30T16:38:57-07:00'
 draft = false
-title = 'On SAY HEY KID: A Response to Hysteria'
+title = 'On SAY HEY KID: A Response to Hysteria's Short Film'
 author = ''
 description = 'A review of Aaron Hernandez/s two latest films'
 image = 'images/IMG_3854.jpeg'
