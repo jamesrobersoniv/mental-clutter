@@ -1,7 +1,7 @@
 +++
 date = '2026-10-12T12:39:16-07:00'
 draft = false
-title = "On The Color Red: A Response to Mia Wood's Exhibition @ Metro Art Gallery"
+title = 'On The Color Red: A Response to Mia Woods’ Exhibition @ Metro Art Gallery'
 author = ''
 description = ''
 image = 'images/IMG_0021.HEIC'
