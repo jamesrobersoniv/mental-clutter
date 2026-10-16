@@ -1,7 +1,7 @@
 +++
 date = '2026-10-12T12:39:16-07:00'
 draft = false
-title = 'A Review of The Color Red, an exhibition by Mia Woods'
+title = 'On The Color Red: A Response to Mia Woods'
 author = ''
 description = ''
 image = 'images/IMG_0021.HEIC'

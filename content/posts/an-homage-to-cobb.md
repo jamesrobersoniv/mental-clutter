@@ -1,7 +1,7 @@
 +++
 date = '2025-03-30T18:57:44-08:00'
 draft = false
-title = 'Homage to Cobb'
+title = 'On Cobb: A Response to UChicago Admissions '
 author = ''
 description = ''
 image = 'images/IMG_9932.jpeg'
