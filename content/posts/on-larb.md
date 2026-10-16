@@ -24,7 +24,7 @@ If you’re looking for an exciting literary scene look towards Midcult presente
 
 When something a child says with an adult’s voice, it turns out they are much wiser than one would expect. 
 
-
+--
 
 *Eduardo Martinez-Leyon Presented: Paris is Burning*
 
@@ -32,25 +32,25 @@ Stuck in pause! I expected more from a gay person. Yawn! I know it was a respons
 
 Isn’t the work of a poet to turn over stones, think critically, and present something challenging?
 
-
+--
 
 *John Tottenham Presented: Trona*
 
 Motel rooms. Uninvited guests. Unwelcome company. A voyeur. A performer. Piss on the floor. More! 
 
-
+--
 
 *Jose Hernandez Diaz Presented: Gangs of New York*
 
 We’re all just faking it till we make it. The real challenge is going bigger and bolder. 
 
-
+--
 
 *Brandon Harris Presented: Landlord*
 
 “N*****s aren’t always colored!” Harris especially displeased me. No contextualization of gentrification. Shock-value without substance. Write about something worth our time.
 
-
+--
 
 *Sophia Le Fraga Presented: Poetry (Montage)*
 
